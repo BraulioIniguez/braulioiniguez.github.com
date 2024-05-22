@@ -33,7 +33,7 @@ links.forEach(function (elementos) {
         content.classList.add("animate__backOutUp");
 
         setTimeout(function () {
-            location.href = "/";
+            location.href = "/boletin";
         }, 600);
 
         return false;

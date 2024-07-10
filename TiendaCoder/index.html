@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body>
+<body style="background-color: #e7e7e7;">
     <!-- ************************************************************ -->
     <!--            Menu de paguina            -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body sticky-top" data-bs-theme="dark">
@@ -56,54 +56,61 @@
     <!--              Contenido principal de la web                -->
     <!--           Aqui estan las card's y/o el catalogo           -->
     <section class="container">
+        <p class="mt-3 text-center fs-4 fw-semibold text-body-secondary " >Ingrese por "Nombre" el producto que desea</p>
         <!-- Agregamos a la clase row las siglas 'm'=Margin + 't'=Top = mt-5 va desde "0 - 5"   -->
-        <div class="row mt-5">
+        <div class="row mt-2 ">
             <!--    Primera Card    -->
-            <div class="col-md-3">
+            <div class="col-md-4 mt-4 ">
                 <!-- Si es necesario le asiganamos espacio entre Card con: style="width: 18rem;" -->
                 <div class="card h-100">
-                    <img src="./img/shopping.jpg" class="card-img-top" alt="..." />
+                    <img src="./img/extraKelloggs.webp" class="card-img-top p-3" alt="Kellogg's extra" style="height: 500px;" />
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">extra arandano</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Cereal Kellogg's extra de 710g
                         </p>
-                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                        <p class="card-text fs-4 font-monospace text-end">
+                            ID: 1.  Precio:$35
+                        </p>
+                        <a onclick=agregarAlCarrito() class="btn btn-dark btn-lg">Agregar</a>
                     </div>
                 </div>
             </div>
             <!--    Fin de la card     -->
             <!-- ******************************************************************************************** -->
             <!--    Segunda Card    -->
-            <div class="col-md-6">
+            <div class="col-md-4 mt-4">
                 <!-- Si es necesario le asiganamos espacio entre Card con: style="width: 18rem;" -->
                 <div class="card h-100">
-                    <img src="./img/shopping.jpg" class="card-img-top" alt="..." />
+                    <img src="./img/arrozYavena.webp" class="card-img-top p-5" alt="Avena y arroz" style="height: 500px; " />
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Avena y Arroz</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Avena y arroz Gerber para bebes de 270g
                         </p>
-                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                        <p class="card-text fs-4 font-monospace text-end">
+                            ID: 2.  Precio:$55
+                        </p>
+                        <a onclick=agregarAlCarrito() class="btn btn-dark btn-lg">Agregar</a>
                     </div>
                 </div>
             </div>
             <!--    Fin de la card     -->
             <!-- ******************************************************************************************** -->
             <!--    Tercera Card    -->
-            <div class="col-md-3">
+            <div class="col-md-4 mt-4">
                 <!-- Si es necesario le asiganamos espacio entre Card con: style="width: 18rem;" -->
                 <div class="card h-100">
-                    <img src="./img/shopping.jpg" class="card-img-top" alt="..." />
+                    <img src="./img/cheerios.webp" class="card-img-top" alt="..." style="height: 500px; width: 390px;" />
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Cheerios Miel</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Cereal Cheerios Miel de 1.02kg
                         </p>
-                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                        <p class="card-text fs-4 font-monospace text-end">
+                            ID: 3.  Precio:$85
+                        </p>
+                        <a onclick=agregarAlCarrito() class="btn btn-dark btn-lg">Agregar</a>
                     </div>
                 </div>
             </div>
@@ -113,14 +120,16 @@
             <div class="col-md-4 my-4"> <!-- mt-4 'm'=Margin y 't'=Top = mt-4 para separar las card's-->
                 <!-- Si es necesario le asiganamos espacio entre Card con: style="width: 18rem;" -->
                 <div class="card h-100">
-                    <img src="./img/shopping.jpg" class="card-img-top" alt="..." />
+                    <img src="./img/salRefinada.webp" class="card-img-top" alt="Sal salRefinada" />
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Sal <Ri:dpr></Ri:dpr>efinada</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                          Sal Forte Refinada de 1Kg
                         </p>
-                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                        <p class="card-text fs-4 font-monospace text-end">
+                            ID: 4.  Precio:$20
+                        </p>
+                        <a onclick=agregarAlCarrito() class="btn btn-dark btn-lg">Agregar</a>
                     </div>
                 </div>
             </div>
@@ -130,14 +139,16 @@
             <div class="col-md-4 my-4"> <!-- mt-4 'm'=Margin y 't'=Top = mt-4 para separar las card's-->
                 <!-- Si es necesario le asiganamos espacio entre Card con: style="width: 18rem;" -->
                 <div class="card h-100">
-                    <img src="./img/shopping.jpg" class="card-img-top" alt="..." />
+                    <img src="./img/zucaritas.webp" class="card-img-top" alt="Cereal Zucaritas" style="height: 500px;" />
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Zucaritas</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Cereal Kellogg's Zucaritas de 665g
                         </p>
-                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                        <p class="card-text fs-4 font-monospace text-end">
+                            ID: 5.  Precio:$65
+                        </p>
+                        <a onclick=agregarAlCarrito() class="btn btn-dark btn-lg">Agregar</a>
                     </div>
                 </div>
             </div>
@@ -146,27 +157,26 @@
             <!--    Sexta Card    -->
             <div class="col-md-4 my-4"> <!-- mt-4 'm'=Margin y 't'=Top = mt-4 para separar las card's-->
                 <!-- Si es necesario le asiganamos espacio entre Card con: style="width: 18rem;" -->
-                <div class="card h-100">
-                    <img src="./img/shopping.jpg" class="card-img-top" alt="..." />
+                <div class="card h-100 pt-5">
+                    <img src="./img/galletasMaritas.webp" class="card-img-top" alt="Galletas Marias" />
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Pack Galletas Marias</h5>
                         <p class="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Galletas Gamesa Maria en paquete de 5 con 50g
                         </p>
-                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                        <p class="card-text fs-4 font-monospace text-end">
+                            ID: 6.  Precio:$85
+                        </p>
+                        <a onclick=agregarAlCarrito() class="btn btn-dark btn-lg">Agregar</a>
                     </div>
                 </div>
             </div>
             <!--      Fin de la card     -->
             <!-- ******************************************************************************************** -->
         </div>
+        <!-- Este script fue el primero que realize  -->
+        <script src="./js/tienda.js"></script>
     </section>
-    <!--    Script de Bootstrap      -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <!-- --------------------------------- -->
 </body>
 
 </html>

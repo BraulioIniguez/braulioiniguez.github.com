@@ -7,21 +7,18 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    
+    
 }
 
 .hero{
     /* Ejemplo de image de fondo */
     /* background-image: url(https://via.placeholder.com/1200x800); */
     background-image: url(../img/crash-bandicoot-4.png);
-    height: 90vh;
+    height: 50vh;
     image-rendering: auto;
+
 }
-/*.contenedor-imagen {
-    position: relative; /* Para controlar la posición absoluta de la imagen */
-   /* width: 100%; /* Opcional: ajusta el ancho del contenedor */
-    /*height: 100vh; /* Opcional: ajusta la altura del contenedor */
-    /*overflow: hidden; /* Opcional: para ocultar partes de la imagen si es necesario */
-/* } */
 /*.contenedor-imagen img {
     width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
   /*  height: 100%; /* La imagen ocupa el 100% de la altura del contenedor */

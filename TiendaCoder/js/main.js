@@ -1,6 +1,6 @@
 // PRODUCTOS
 const productos = [
-  // Abrigos
+
   {
     id: "Avena-01",
     titulo: "Avena y arroz",

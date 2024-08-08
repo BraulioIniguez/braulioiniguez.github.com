@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
     <!-- Css / Style de nuestro css -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- toastify  -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
   </head>
 
   <body style="background-color: #e7e7e7">
@@ -38,7 +40,7 @@
             <li class="nav-item">
               <a class="nav-link fs-5" href="./contacto.html">Contacto</a>
             </li>
-
+          </ul>
             <div class="navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav position-absolute top-0 end-0">
                 <li class="nav-item">
@@ -64,7 +66,7 @@
     <!-- ****************************************************************************** -->
     <!--              Contenido principal de la web                -->
     <!--           Aqui estan las card's y/o el catalogo           -->
-    <section class="container">
+    <section class="container text-center">
         <div class="d-flex justify-content-evenly ">
           <button class="btn btn-dark mt-3 fs-5 px-5 active btn-menu btn-categoria " id="todos" >Todos los productos</button>
           <button class="btn btn-dark mt-3 fs-5 px-5 btn-menu btn-categoria " id="abarrotes" >Abarrotes</button>
@@ -72,9 +74,10 @@
           <button class="btn btn-dark mt-3 fs-5 px-5 btn-menu btn-categoria " id="carnes" >Carnes</button>
         </div>
       <div id="container-productos" class="container-productos"></div>
-
-
+      
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
       <script src="./js/main.js"></script>
+      
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

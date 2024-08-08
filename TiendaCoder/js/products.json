@@ -1,0 +1,137 @@
+
+[
+    {
+      "id": "Avena-01",
+      "titulo": "Avena y arroz",
+      "imagen": "./img/arrozYavena.webp",
+      "descripcion": "Excelente Avena y Arroz de 270g",
+      "categoria": {
+        "nombre": "Abarrotes",
+        "id": "abarrotes"
+      },
+      "precio": 55
+    },
+    {
+      "id": "cereral-01",
+      "titulo": "Cheerios Miel",
+      "imagen": "./img/cheerios.webp",
+      "descripcion": "Cereal Cheerios Miel de 1.02k",
+      "categoria": {
+        "nombre": "Abarrotes",
+        "id": "abarrotes"
+      },
+      "precio": 85
+    },
+    {
+      "id": "cereal-02",
+      "titulo": "Extra arándano",
+      "imagen": "./img/extraKelloggs.webp",
+      "descripcion": "Cereal Kellogg's extra arándano de 710g",
+      "categoria": {
+        "nombre": "Abarrotes",
+        "id": "abarrotes"
+      },
+      "precio": 75
+    },
+    {
+      "id": "galletas-01",
+      "titulo": "Pack Galletas Maria",
+      "imagen": "./img/galletasMaritas.webp",
+      "descripcion": "Pack de 5 paquetes de galletas maria de 170g c/u",
+      "categoria": {
+        "nombre": "Abarrotes",
+        "id": "abarrotes"
+      },
+      "precio": 125
+    },
+    {
+      "id": "lecheLala",
+      "titulo": "Leche Lala",
+      "imagen": "./img/lecheLala1L.webp",
+      "descripcion": "Leche entera de 1 litro de 1,5 L",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "lacteos"
+      },
+      "precio": 35
+    },
+    {
+      "id": "lecheAlpura",
+      "titulo": "Leche Alpura en polvo",
+      "imagen": "./img/lecheAlpuraEnPolvo.webp",
+      "descripcion": "Leche En Polvo Alpura Entera 460g",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "lacteos"
+      },
+      "precio": 99
+    },
+    {
+      "id": "nescafeClasico",
+      "titulo": "Nescafé Clásico",
+      "imagen": "./img/nescafeSoluble.webp",
+      "descripcion": "Bebida Soluble Nescafé Clásico 100% Puro 400g",
+      "categoria": {
+        "nombre": "Abarrotes",
+        "id": "abarrotes"
+      },
+      "precio": 179
+    },
+    {
+      "id": "silkDeAlmendra",
+      "titulo": "Silk de Almendras",
+      "imagen": "./img/silkAlmedras.webp",
+      "descripcion": "Silk Alimento Líquido De Almendra Sin Azúcar Monkfruit 946ml",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "lacteos"
+      },
+      "precio": 270
+    },
+
+    {
+      "id": "bistecDeRes",
+      "titulo": "Bistec de res 1 Kg",
+      "imagen": "./img/bistecDeRes.webp",
+      "descripcion": "Es un corte delgado de carne de res, en Carnes Ideal lo cortamos de la pieza llamada centro de cara por ser màs jugosa y de excelente sabor, principalmente ocupado para asar o empanizar.",
+      "categoria": {
+        "nombre": "Carnes",
+        "id": "carnes"
+      },
+      "precio": 214
+    },
+    {
+      "id": "carneMolida",
+      "titulo": "Molida de res 80/20 1 Kg",
+      "imagen": "./img/carneMolida.webp",
+      "descripcion": "Puede ser de aguayón, bola o espaldilla. Se utiliza en picadillos, rellenos, albondigas y hamburguesas.",
+      "categoria": {
+        "nombre": "Carnes",
+        "id": "carnes"
+      },
+      "precio": 194
+    },
+    {
+      "id": "bistecDeCerdo",
+      "titulo": "Bistec de cerdo",
+      "imagen": "./img/bistecDeCerdo.webp",
+      "descripcion": "Silk Alimento Líquido De Almendra Sin Azúcar Monkfruit 946ml",
+      "categoria": {
+        "nombre": "Carnes",
+        "id": "carnes"
+      },
+      "precio": 137
+    },
+    {
+      "id": "milanesaDePollo",
+      "titulo": "Milanesa de pollo 1 Kg",
+      "imagen": "./img/milanesaDePollo.webp",
+      "descripcion": "Es un corte delgado de pulpa de pechuga de pollo de primera calidad, principalmente para asar o empanizar.",
+      "categoria": {
+        "nombre": "Carnes",
+        "id": "carnes"
+      },
+      "precio": 188
+    }
+    
+  ]

@@ -22,7 +22,7 @@
 .btn-menu {
     background-color: transparent;
     border: 0;
-    color: var(--clr-white);
+    color: black;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -94,10 +94,10 @@
 .cart-producto small{
     font-size: .75rem;
 }
-.cart-producto-eliminar{
+.btns-delete{
     border: 0;
     background-color: transparent;
-    color: rgb(204, 8, 47);
+    color: #a62514;
     font-size: 1.2rem;
     cursor: pointer;
 }
